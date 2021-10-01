@@ -35,55 +35,10 @@
           <h1>ES6 Features</h1>
           <small>September, 2021</small>
           <p>
-            I am going to share some of the usefule ES6 features which can help write better code :
-
-1. Template Literals :
-
-We can now use back-ticks (`) for writing strings and to pass a value, we can use ${value}, for example :
-
-let name = `Your full name is ${firstName} ${lastName}`
-
-2. Destructuring
-
-It is a Javascript expression that can extract values from arrays or objects into a new variable. For example,
-
-const obj = { firstName: 'abc', lastName: 'xyz' };
-const { firstName, lastName } = obj;
-
-3. Arrow functions
-
-The advantage of using arrow function is that, 'this' will have the same value as in the context of the function. For example,
-
-const a = () => console.log('Hello');
-
-4. Promises
-
-Promises provide us with asynchronous execution. For example,
-
-var asyncExample =  new Promise((resolve, reject) => {
-   // do something
-   resolve();
-}).then(()=> {  
-   console.log('Successful');
-})
-
-5. let and const
-
-These allow us to scope the variable to a block. For example,
-
-function exampleFunc(bool) {
-   let count= 0;
-   if(bool) {
-      let count = 1; // scope ends here for count
-   }
-   return count;
-}
-console.log(exampleFunc(true)); // output: 0
-
-
+            I am going to share some of the usefule ES6 features which can help write better code.
           </p>
 
-          <a class="link link-primary" href="">Read More</a>
+          <a class="link link-primary" href="es6blog.html">Read More</a>
         </article>
       </li>
 
@@ -92,39 +47,12 @@ console.log(exampleFunc(true)); // output: 0
           <h1>Solid Principles</h1>
           <small>September, 2021</small>
           <p>
-            I am going to share what are SOLID Principles in my understanding :
-
-1. Single responsibility principle
-
-A class should have one and only one reason to change, meaning that a class should have only one responsibility.
-This means decoupling the unrelated functionalities and separating them into different classes.
-
-2. Open-closed principle
-
-Objects or entities should be open for extension but closed for modification.
-This should be used only when the requirements are reasonable predictable to us.
-The code should be isolated from requirements change
-
-3. Liskov substitution principle
-
-Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T.
-This means that every subclass or derived class should be substitutable for their base or parent class.
-If the code is going to be consumed by others, then this becomes important.
-
-4. Interface segregation principle
-
-A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use.
-
-5. Dependency inversion principle
-
-Entities must depend on abstractions, not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
-
-
+            I am going to share what are SOLID Principles in my understanding.
           </p>
 
           <a
             class="link link-primary"
-            href=""
+            href="solidblog.html"
             >Read More</a
           >
         </article>
